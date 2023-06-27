@@ -10,10 +10,16 @@
     <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <div class="main">
-        <a href="https://betboom.ru/">
-            <img src="https://site-static-blue.betboom.ru/images/logo/logo-dark.svg">
-        </a>
+        <img id='imagebutton' src="https://site-static-blue.betboom.ru/images/logo/logo-dark.svg">
     </div>
 </body>
+<script>
+    let button = document.getElementById('imagebutton')
+    button.onclick = () => (
+        window.open('https://betboom.ru')
+    )
+</script>
+
+
 
 </html>
